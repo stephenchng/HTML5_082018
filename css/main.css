@@ -1,0 +1,187 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+/*
+
+*/
+
+.topnav {
+background-color: black;
+overflow: hidden;
+}
+
+.topnav a {
+
+    float: left; 
+    color:rgb(255, 255, 153);
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size:20px;
+}
+
+.topnav a:hover {
+background-color: #dddddd;
+color:blue
+}
+
+.topnav a.active {
+    background-color: blue;
+    color:yellowgreen;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 10px;
+    border: 0px;
+    font-size: 17px;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+.topnav .search-container button {
+    float: right;
+    margin-left: 1px;
+    margin-right: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+background: yellow;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+
+    }
+
+    .topnav a, .topnav input [type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    background-color: red;
+    width: 100%;
+    color:white;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.bottomrow {
+    content: "";
+    display: block;
+    clear:both;
+}
+.bottomcolumn {
+    text-align: center;
+    padding:10px;
+}
+
+.row {
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px; 
+    margin: 10px 10px 10px 10px;
+}
+
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    background-color: cyan;
+}
+
+.left {
+    width: 15%;
+    text-align: center;
+}
+
+.right {
+    width: 80%;
+    margin: 0px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.lastdiv {
+    margin-bottom: 150px;
+}
+
+#fb, #gl, #tw {
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aqua;
+}
+
+.rowoforigin {
+    background-color: crimson;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    clear: both;
+}
+
+.twocolumn {
+    float: left;
+    width: 45%;
+    padding: 10px 10px 10px 10px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background: yellow; 
+}
+
+a:link {
+    color: lightsalmon;
+    text-decoration:red; 
+    background-color: transparent;
+}
+
+a:hover {
+    color: white;
+    background-color:blue;
+    text-decoration:white;
+}
+
+a:visited {
+    color: black;
+    background: transparent;
+    text-decoration: none;
+}
